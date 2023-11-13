@@ -1,0 +1,403 @@
+package brailleconverter;
+
+/**
+ *
+ * @author syonamehra
+ */
+import java.util.Scanner;
+public class Brailleconverter {
+
+    /**
+     * @param args the command line arguments
+     */
+    void a(){
+        System.out.print(". ");}
+    void a2(){
+        System.out.print("  ");}
+    void a3(){
+        System.out.print("  ");
+    }
+    void b(){
+        System.out.print(". ");}
+    void b2(){
+        System.out.print(". ");}
+    void b3(){
+        System.out.print("  ");
+    }
+    void c(){
+        System.out.print("..");}
+    void c2(){
+        System.out.print("  ");}
+    void c3(){
+        System.out.print("  ");
+    }
+    void d(){
+        System.out.print("..");}
+      void d2(){
+        System.out.print(" .");}
+        void d3(){
+        System.out.print("  ");
+    }
+    void e(){
+        System.out.print(". ");}
+    void e2(){
+        System.out.print(" .");}
+    void e3(){
+        System.out.print("  ");
+    }
+    void f(){
+        System.out.print("..");}
+        void f2(){
+        System.out.print(". ");}
+            void f3(){
+        System.out.print("  ");
+    }
+    void g(){
+        System.out.print("..");}
+      void g2(){
+        System.out.print("..");}
+        void g3(){
+        System.out.print("  ");
+    }
+    void h(){
+        System.out.print(". ");}
+      void h2(){
+        System.out.print("..");}
+        void h3(){
+        System.out.print("  ");
+    }
+    void i(){
+        System.out.print(" .");}
+      void i2(){
+        System.out.print(". ");}
+        void i3(){
+        System.out.print("  ");
+    }
+   void j(){
+        System.out.print(" .");}
+     void j2(){
+        System.out.print("..");}
+       void j3(){
+        System.out.print("  ");
+    } 
+   void k(){
+        System.out.print(". ");}
+     void k2(){
+        System.out.print("  ");}
+       void k3(){
+        System.out.print(". ");
+    }
+   void l(){
+        System.out.print(". ");}
+     void l2(){
+        System.out.print(". ");}
+       void l3(){
+        System.out.print(". ");
+    }
+   void m(){
+        System.out.print("..");}
+  void m2(){
+        System.out.print("  ");}
+  void m3(){
+        System.out.print(". ");
+    }
+   void n(){
+        System.out.print("..");}
+  void n2(){
+        System.out.print(" .");}
+  void n3(){
+        System.out.print(". ");
+    }
+   void o(){
+        System.out.print(". ");}
+  void o2(){
+        System.out.print(" .");}
+  void o3(){
+        System.out.print(". ");
+    }
+   void p(){
+        System.out.print("..");}
+  void p2(){
+        System.out.print(". ");}
+  void p3(){
+        System.out.print(". ");
+    }
+   void q(){
+        System.out.print("..");}
+  void q2(){
+        System.out.print("..");}
+  void q3(){
+        System.out.print(". ");
+    }
+   void r(){
+        System.out.print(". ");}
+  void r2(){
+        System.out.print("..");}
+  void r3(){
+        System.out.print(". ");
+    }
+   void s(){
+        System.out.print(" .");}
+  void s2(){
+        System.out.print(". ");}
+  void s3(){
+        System.out.print(". ");
+    }
+   void t(){
+        System.out.print(" .");}
+  void t2(){
+        System.out.print("..");}
+  void t3(){
+        System.out.print(". ");
+    }
+   void u(){
+        System.out.print(". ");}
+  void u2(){
+        System.out.print("  ");}
+  void u3(){
+        System.out.print("..");
+    }
+   void v(){
+        System.out.print(". ");}
+  void v2(){
+        System.out.print(". ");}
+  void v3(){
+        System.out.print("..");
+    }
+   void w(){
+        System.out.print(" .");}
+  void w2(){
+        System.out.print("..");}
+  void w3(){
+        System.out.print(" .");
+    }
+   void x(){
+        System.out.print("..");}
+  void x2(){
+        System.out.print("  ");}
+  void x3(){
+        System.out.print("..");
+    }
+   void y(){
+        System.out.print("..");}
+  void y2(){
+        System.out.print(" .");}
+  void y3(){
+        System.out.print("..");
+    }
+   void z(){
+        System.out.print(". ");}
+  void z2(){
+        System.out.print(" .");}
+  void z3(){
+        System.out.print("..");
+    }
+  
+  void one(char ch){
+       Brailleconverter ob=new Brailleconverter();
+       if(ch=='a')
+           ob.a();
+        if(ch=='b')
+           ob.b();
+        if(ch=='c')
+           ob.c();
+        if(ch=='d')
+           ob.d();
+        if(ch=='e')
+           ob.e();
+        if(ch=='f')
+           ob.f();
+        if(ch=='g')
+           ob.g();
+        if(ch=='h')
+           ob.h();
+        if(ch=='i')
+           ob.i();
+        if(ch=='j')
+           ob.j();
+        if(ch=='k')
+           ob.k();
+        if(ch=='l')
+           ob.l();
+        if(ch=='m')
+           ob.m();
+        if(ch=='n')
+           ob.n();
+        if(ch=='o')
+           ob.o();
+        if(ch=='p')
+           ob.p();
+        if(ch=='q')
+           ob.q();
+        if(ch=='r')
+           ob.r();
+        if(ch=='s')
+           ob.s();
+        if(ch=='t')
+           ob.t();
+        if(ch=='u')
+           ob.u();
+        if(ch=='v')
+           ob.v();
+        if(ch=='w')
+           ob.w();
+        if(ch=='x')
+           ob.x();
+        if(ch=='y')
+           ob.y();
+        if(ch=='z')
+           ob.z();
+  }
+   void two(char ch){
+       Brailleconverter ob=new Brailleconverter();
+       if(ch=='a')
+           ob.a2();
+        if(ch=='b')
+           ob.b2();
+        if(ch=='c')
+           ob.c2();
+        if(ch=='d')
+           ob.d2();
+        if(ch=='e')
+           ob.e2();
+        if(ch=='f')
+           ob.f2();
+        if(ch=='g')
+           ob.g2();
+        if(ch=='h')
+           ob.h2();
+        if(ch=='i')
+           ob.i2();
+        if(ch=='j')
+           ob.j2();
+        if(ch=='k')
+           ob.k2();
+        if(ch=='l')
+           ob.l2();
+        if(ch=='m')
+           ob.m2();
+        if(ch=='n')
+           ob.n2();
+        if(ch=='o')
+           ob.o2();
+        if(ch=='p')
+           ob.p2();
+        if(ch=='q')
+           ob.q2();
+        if(ch=='r')
+           ob.r2();
+        if(ch=='s')
+           ob.s2();
+        if(ch=='t')
+           ob.t2();
+        if(ch=='u')
+           ob.u2();
+        if(ch=='v')
+           ob.v2();
+        if(ch=='w')
+           ob.w2();
+        if(ch=='x')
+           ob.x2();
+        if(ch=='y')
+           ob.y2();
+        if(ch=='z')
+           ob.z2();
+  }
+   void three(char ch){
+       Brailleconverter ob=new Brailleconverter();
+       if(ch=='a')
+           ob.a3();
+        if(ch=='b')
+           ob.b3();
+        if(ch=='c')
+           ob.c3();
+        if(ch=='d')
+           ob.d3();
+        if(ch=='e')
+           ob.e3();
+        if(ch=='f')
+           ob.f3();
+        if(ch=='g')
+           ob.g3();
+        if(ch=='h')
+           ob.h3();
+        if(ch=='i')
+           ob.i3();
+        if(ch=='j')
+           ob.j3();
+        if(ch=='k')
+           ob.k3();
+        if(ch=='l')
+           ob.l3();
+        if(ch=='m')
+           ob.m3();
+        if(ch=='n')
+           ob.n3();
+        if(ch=='o')
+           ob.o3();
+        if(ch=='p')
+           ob.p3();
+        if(ch=='q')
+           ob.q3();
+        if(ch=='r')
+           ob.r3();
+        if(ch=='s')
+           ob.s3();
+        if(ch=='t')
+           ob.t3();
+        if(ch=='u')
+           ob.u3();
+        if(ch=='v')
+           ob.v3();
+        if(ch=='w')
+           ob.w3();
+        if(ch=='x')
+           ob.x3();
+        if(ch=='y')
+           ob.y3();
+        if(ch=='z')
+           ob.z3();
+  }
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner A=new Scanner(System.in);
+        Brailleconverter ob=new Brailleconverter();
+        System.out.println("Enter a word or sentence toconvert to Braille. ");
+        String st=A.nextLine();
+        int len=st.length();
+        
+        
+        for(int i=0;i<len;i++){
+        char ch=st.charAt(i);
+        ob.one(ch);
+       
+        if(ch==' '){
+                System.out.print("  ");
+              }
+        
+        }
+        
+        System.out.println();
+        
+        for(int i=0;i<len;i++){
+        char ch=st.charAt(i);
+        ob.two(ch);
+        if(ch==' '){
+                System.out.print("  ");
+        }        
+        }
+        
+        System.out.println();
+        
+        for(int i=0;i<len;i++){
+        char ch=st.charAt(i);
+        ob.three(ch);
+        if(ch==' '){
+                System.out.print("  ");
+        }
+        
+        }
+        
+    }
+    
+}
